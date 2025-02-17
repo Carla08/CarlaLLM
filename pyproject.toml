@@ -11,6 +11,14 @@ python = "^3.9"
 requests = "^2.32.3"
 
 
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.4"
+assertpy = "^1.1"
+requests-mock = "^1.12.1"
+
+[tool.pytest.ini_options]
+pythonpath = "src"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
