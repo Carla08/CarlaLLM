@@ -7,7 +7,7 @@ class TrainingDataRetriever(ABC):
         pass
 
     @abstractmethod
-    def get(self):
+    def get_data(self):
         pass
 
     @abstractmethod
