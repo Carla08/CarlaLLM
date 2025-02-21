@@ -8,8 +8,6 @@ from training_data_retriever.training_data_retriever_abc import TrainingDataRetr
 
 
 class WikipediaArticlesRetriever(TrainingDataRetriever):
-    WIKIPEDIA_URL = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/top/en.wikipedia/all-access/"
-    HEADERS = {"User-Agent": "MyWikipediaApp/1.0 (carlaprieto.com)"}
 
     def __init__(self):
         pass
